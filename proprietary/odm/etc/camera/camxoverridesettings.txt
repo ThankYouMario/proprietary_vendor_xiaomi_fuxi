@@ -419,3 +419,10 @@ SharpnessCompensateRatio=0@0.45|2@0.45
 
 #Enable CameraHWDiag
 enCameraHWDiag=TRUE
+
+#enable Video Live App Save Power
+enableVideoLivePowerSave=TRUE
+
+#for camera mipi crc error
+enableInternalKMDRecovery=TRUE
+crcErrorDivisor=100

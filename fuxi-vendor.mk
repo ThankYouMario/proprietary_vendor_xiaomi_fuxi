@@ -218,12 +218,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/Effect/30_BasicRetouch/Effects/0_BrightEyeV3/eye_pupil.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/Effect/30_BasicRetouch/Effects/0_BrightEyeV3/eye_pupil.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/Effect/30_BasicRetouch/Effects/0_BrightEyeV3/left_eye.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/Effect/30_BasicRetouch/Effects/0_BrightEyeV3/left_eye.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/Effect/30_BasicRetouch/Effects/0_BrightEyeV3/right_eye.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/Effect/30_BasicRetouch/Effects/0_BrightEyeV3/right_eye.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/Effect/30_BasicRetouch/Effects/1_FacialSmooth/FaceMask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/Effect/30_BasicRetouch/Effects/1_FacialSmooth/FaceMask.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/Effect/30_BasicRetouch/Effects/1_FacialSmooth/FacialSmoothMask_first.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/Effect/30_BasicRetouch/Effects/1_FacialSmooth/FacialSmoothMask_first.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/Effect/30_BasicRetouch/Effects/1_FacialSmooth/FacialSmoothMask_second.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/Effect/30_BasicRetouch/Effects/1_FacialSmooth/FacialSmoothMask_second.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/Effect/30_BasicRetouch/Effects/1_FacialSmooth/effectV2.json:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/Effect/30_BasicRetouch/Effects/1_FacialSmooth/effectV2.json \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/Effect/30_BasicRetouch/mode_base.json:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/Effect/30_BasicRetouch/mode_base.json \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/Effect/30_BasicRetouch/mode_base_all.json:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/Effect/30_BasicRetouch/mode_base_all.json \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/Effect/40_FaceStereo/Effects/0_ModeClassical/effect_capture.json:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/Effect/40_FaceStereo/Effects/0_ModeClassical/effect_capture.json \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/Effect/40_FaceStereo/Effects/0_ModeClassical/effect_preview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/Effect/40_FaceStereo/Effects/0_ModeClassical/effect_preview.json \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/Effect/40_FaceStereo/Effects/0_ModeClassical/xr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/Effect/40_FaceStereo/Effects/0_ModeClassical/xr.bin \
@@ -327,7 +322,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/glsl/binShaders32/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_NEED_REFINE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/glsl/binShaders32/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_NEED_REFINE.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/glsl/binShaders32/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_USE_SPLIT.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/glsl/binShaders32/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_USE_SPLIT.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/glsl/binShaders32/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_USE_SPLIT_NEED_REFINE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/glsl/binShaders32/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_USE_SPLIT_NEED_REFINE.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/glsl/binShaders32/shader_GLPROGRAM_FACIALREFINE_V2_EYE_FUSE_OFFSET.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/glsl/binShaders32/shader_GLPROGRAM_FACIALREFINE_V2_EYE_FUSE_OFFSET.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/glsl/binShaders32/shader_GLPROGRAM_FACIALREFINE_V2_EYE_FUSE_OFFSET_Define_NEED_REFINE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/glsl/binShaders32/shader_GLPROGRAM_FACIALREFINE_V2_EYE_FUSE_OFFSET_Define_NEED_REFINE.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/glsl/binShaders32/shader_GLPROGRAM_FACIALREFINE_V2_WARP.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/glsl/binShaders32/shader_GLPROGRAM_FACIALREFINE_V2_WARP.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/glsl/binShaders32/shader_GLPROGRAM_FACIALREFINE_V2_WARP_Define_DEF_CATMULL_ROM.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/glsl/binShaders32/shader_GLPROGRAM_FACIALREFINE_V2_WARP_Define_DEF_CATMULL_ROM.bin \
@@ -409,7 +403,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_NEED_REFINE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_NEED_REFINE.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_USE_SPLIT.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_USE_SPLIT.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_USE_SPLIT_NEED_REFINE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_USE_SPLIT_NEED_REFINE.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_EYE_FUSE_OFFSET.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_EYE_FUSE_OFFSET.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_EYE_FUSE_OFFSET_Define_NEED_REFINE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_EYE_FUSE_OFFSET_Define_NEED_REFINE.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP_Define_DEF_CATMULL_ROM.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP_Define_DEF_CATMULL_ROM.bin \
@@ -737,6 +730,7 @@ PRODUCT_PACKAGES += \
     bm3a73v08s11n63 \
     capi_cirrus_sp \
     chre_qsh_shim \
+    hrtf5c \
     libCalculator_skel \
     libDspIOProxy_skel \
     libQ6MSFR_manager_skel \
